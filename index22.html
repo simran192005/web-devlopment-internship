@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-entrance">
+        <nav>
+            <ul>
+                <li><a href="#main-entrance">Home</a></li>
+                <li><a href="#heritage">Heritage</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <h1>Welcome to Our University</h1>
+            <p>Sharing facts about faculty, departments, events, and contact points</p>
+        </div>
+        <div class="slider">
+            <div class="slides">
+                <img src="images/slide1.jpg" alt="Slide 1">
+                <img src="images/slide2.jpg" alt="Slide 2">
+                <img src="images/slide3.jpg" alt="Slide 3">
+            </div>
+        </div>
+    </header>
+
+    <section id="heritage">
+        <h2>Our Heritage</h2>
+        <p>Information about the university's history and heritage.</p>
+    </section>
+
+    <section id="departments">
+        <h2>Departments</h2>
+        <div class="departments-list">
+            <div class="department">
+                <h3>Department of Computer Science</h3>
+                <p>Details about the Computer Science department.</p>
+            </div>
+            <div class="department">
+                <h3>Department of Physics</h3>
+                <p>Details about the Physics department.</p>
+            </div>
+            <!-- Add more departments as needed -->
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <div class="events-list">
+            <div class="event">
+                <h3>Event 1</h3>
+                <p>Description of Event 1.</p>
+            </div>
+            <div class="event">
+                <h3>Event 2</h3>
+                <p>Description of Event 2.</p>
+            </div>
+            <!-- Add more events as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <div id="map"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 University Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
